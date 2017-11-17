@@ -130,6 +130,26 @@ nav .nav-right{
   cursor: pointer;
 }
 
+.flex{
+  display: flex;
+}
+
 .float-right{
-  
+  margin-left: 100px;
+}
+
+.float-right .ri-num{
+  color: rgb(219, 81, 0);
+}
+
+.float-right ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.float-right ul li{
+  display: inline;
+  margin-right: 15px;
+  background: rgb(219, 81, 0);
+  color: #fff;
 }
